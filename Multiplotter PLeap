@@ -8,8 +8,6 @@ body {
   --textColorBright: #999999;
   --scanlines:url(https://i.ibb.co/BVnmNrf/scanlineshorizontal2.png); }
 
-
-
 .nmlies { border:solid 1px var(--borderColor);width:698px;margin:12px auto;min-height:700px;background-color:#1b1b1b;position:relative;overflow:hidden;color:var(--textColor); }
 .nmlies-back { background-image:url(https://i.ibb.co/j4zSdj5/light-spots2.png);position:absolute;height:703px;width:698px;opacity:.5;background-position:center;background-attachment:fixed; }
 .nmlies-color { position:absolute;z-index:2;height:700px;width:275px;background:linear-gradient(to bottom,var(--accentColor),var(--accentColor2));clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);transition:.7s all;margin-left:-30px;opacity:0;pointer-events:none;transition-delay:0s; }
@@ -33,8 +31,7 @@ body {
 .nmlies-tab { display:block;position:absolute;z-index:20;margin:0px 0px 0px 265px;cursor:pointer;mix-blend-mode:lighten; }
 .nmlies-tab div { height:6px;width:6px;background-color:var(--textColor);border-radius:100%;border:solid 5px #1b1b1b;transition:.7s all;margin-top:30px;transition-delay:0s; }
 
-
-
+/*******PARTES AJUSTABLES SEGUN NUMERO DE ETIQUETAS*********/
 
 #NMLIES-0 { --accentColor:#ab4644;--accentColor2:#664e3d;--accentRGBA:171,70,68; }
 #nmlies-tab0 div { border-color:#ab4644;background-color:var(--backgroundColor);transition-delay:.5s; }
